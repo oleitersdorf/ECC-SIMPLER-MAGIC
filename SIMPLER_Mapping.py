@@ -696,7 +696,7 @@ class SIMPLER_Top_Data_Structure:
             print("Cycle {0:3}: Memory - {1:40} Cmemory - {2:40} Depth - {3}".format(cycle,mem_cycle_operation,cmem_cycle_operation, pipeline_depth))
             if (pipeline_depth > 0):
                 total_num_cycles_no_pa += (pipeline_depth - 1)
-        print("Max Pipeline Depth: " + str(max_depth))
+        print("Max Pipeline Depth: " + str(max_depth + 1))
 
         
         #Statistics
